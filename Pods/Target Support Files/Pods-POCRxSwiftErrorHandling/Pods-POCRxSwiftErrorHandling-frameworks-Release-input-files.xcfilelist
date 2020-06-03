@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-POCRxSwiftErrorHandling/Pods-POCRxSwiftErrorHandling-frameworks.sh
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

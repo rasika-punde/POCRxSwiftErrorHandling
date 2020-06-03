@@ -1,0 +1,20 @@
+PODS:
+  - RxSwift (5.1.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - RxSwift (= 5.1.1)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - RxSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: a2bd847c9abaf2e8ae6234d56a103be67e7fb5ea
+
+COCOAPODS: 1.8.4
