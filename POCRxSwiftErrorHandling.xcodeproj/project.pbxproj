@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		61C6F5396D196D608EB10365 /* Pods_POCRxSwiftErrorHandling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D592A2FAF37376B95148334 /* Pods_POCRxSwiftErrorHandling.framework */; };
+		F0145489248914EA0089EAA1 /* RetryingTokenNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0145488248914EA0089EAA1 /* RetryingTokenNetworkService.swift */; };
 		F065AE81248782E900F923A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F065AE80248782E900F923A8 /* AppDelegate.swift */; };
 		F065AE83248782E900F923A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F065AE82248782E900F923A8 /* SceneDelegate.swift */; };
 		F065AE85248782E900F923A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F065AE84248782E900F923A8 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		7D592A2FAF37376B95148334 /* Pods_POCRxSwiftErrorHandling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCRxSwiftErrorHandling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A46321886B75CC14E74DC3C /* Pods-POCRxSwiftErrorHandling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCRxSwiftErrorHandling.debug.xcconfig"; path = "Target Support Files/Pods-POCRxSwiftErrorHandling/Pods-POCRxSwiftErrorHandling.debug.xcconfig"; sourceTree = "<group>"; };
 		B537A057C5BB42473850CB7D /* Pods-POCRxSwiftErrorHandling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCRxSwiftErrorHandling.release.xcconfig"; path = "Target Support Files/Pods-POCRxSwiftErrorHandling/Pods-POCRxSwiftErrorHandling.release.xcconfig"; sourceTree = "<group>"; };
+		F0145488248914EA0089EAA1 /* RetryingTokenNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryingTokenNetworkService.swift; sourceTree = "<group>"; };
 		F065AE7D248782E900F923A8 /* POCRxSwiftErrorHandling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCRxSwiftErrorHandling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F065AE80248782E900F923A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F065AE82248782E900F923A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				F065AE98248786C700F923A8 /* Network.swift */,
 				F065AE942487838E00F923A8 /* API.swift */,
 				F065AE962487844B00F923A8 /* Album.swift */,
+				F0145488248914EA0089EAA1 /* RetryingTokenNetworkService.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F065AE85248782E900F923A8 /* ViewController.swift in Sources */,
+				F0145489248914EA0089EAA1 /* RetryingTokenNetworkService.swift in Sources */,
 				F065AE81248782E900F923A8 /* AppDelegate.swift in Sources */,
 				F065AE99248786C700F923A8 /* Network.swift in Sources */,
 				F065AE952487838E00F923A8 /* API.swift in Sources */,

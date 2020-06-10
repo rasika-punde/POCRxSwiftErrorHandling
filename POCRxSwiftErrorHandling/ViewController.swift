@@ -12,15 +12,15 @@ import RxSwift
 class ViewController: UIViewController {
 
     var disposeBag = DisposeBag()
+    let resources = Resources.total
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        getAllTracks()
+        ViewModel().xyz()
         .observeOn(MainScheduler.instance)
-        .subscribe(onNext: { (result) in
+        .subscribe(onNext: { [weak self] (result) in
             print(result)
-        })
-        .disposed(by: disposeBag)
+            print("Resource count \(self?.resources)")
+        }).disposed(by: disposeBag)
     }
 }
-

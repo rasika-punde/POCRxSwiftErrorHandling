@@ -61,11 +61,10 @@ class ServiceManager {
             }else if let data = data ,let responseCode = response as? HTTPURLResponse {
                 do {
                     let responseJson = try JSON(data: data)
-                    print("responseCode : \(responseCode.statusCode)")
-                    print("responseJSON : \(responseJson)")
                     switch responseCode.statusCode {
                     case 200:
                     completion(ApiResult.success(responseJson))
+//                        completion(ApiResult.failure(.unknownError))
                     case 400...499:
                     completion(ApiResult.failure(.authorizationError(responseJson)))
                     case 500...599:
